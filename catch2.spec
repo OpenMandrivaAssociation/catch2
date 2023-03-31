@@ -6,7 +6,7 @@
 
 Name: catch2
 Version: 3.3.1
-Release: 1
+Release: 2
 Source0: https://github.com/catchorg/Catch2/archive/refs/tags/v%{version}.tar.gz
 Summary: C++ unit-test framework
 URL: https://github.com/catchorg/Catch2
