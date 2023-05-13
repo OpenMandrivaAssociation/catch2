@@ -5,8 +5,8 @@
 %define devname %mklibname catch2 -d
 
 Name: catch2
-Version: 3.3.1
-Release: 2
+Version: 3.3.2
+Release: 1
 Source0: https://github.com/catchorg/Catch2/archive/refs/tags/v%{version}.tar.gz
 Summary: C++ unit-test framework
 URL: https://github.com/catchorg/Catch2
