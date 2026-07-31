@@ -5,7 +5,7 @@
 %define devname %mklibname catch2 -d
 
 Name: catch2
-Version: 3.7.1
+Version: 3.15.3
 Release: 1
 Source0: https://github.com/catchorg/Catch2/archive/refs/tags/v%{version}/Catch2-%{version}.tar.gz
 Summary: C++ unit-test framework
@@ -41,7 +41,7 @@ C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x
 branch)
 
 %prep
-%autosetup -p1 -n Catch2-%{version}
+%autosetup -p1 -n Catch2-3.15.3
 %cmake -G Ninja
 
 %build
